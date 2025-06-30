@@ -2,9 +2,7 @@
 
 ## 📊 Project Overview
 
-This project explores whether higher movie production budgets correlate with higher box office revenues. Using real-world data scraped from [the-numbers.com](https://www.the-numbers.com/movie/budgets) as of **May 1st, 2018**, we perform data analysis and build a simple regression model to understand the relationship between budget and revenue.
-
-<img src="https://i.imgur.com/kq7hrEh.png" width="600"/>
+This project investigates the relationship between movie production budgets and box office revenues. By analyzing real-world data scraped from the-numbers.com, we perform exploratory data analysis and build a linear regression model to determine whether higher budgets lead to higher revenues.
 
 ---
 
@@ -51,12 +49,6 @@ cd movie-budget-revenue
 2. Install required packages:
 
 ```bash
-pip install -r requirements.txt
-```
-
-If `requirements.txt` is not provided, manually install:
-
-```bash
 pip install pandas matplotlib seaborn scikit-learn
 ```
 
@@ -84,21 +76,3 @@ Follow the cells sequentially for:
 
 - A clear positive correlation is found between budget and revenue.
 - The linear regression line helps estimate expected revenue based on the budget.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please open issues or pull requests for improvements.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-## 📧 Contact
-
-For queries or suggestions, contact [Your Name](mailto:your.email@example.com).
